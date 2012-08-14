@@ -4,11 +4,10 @@
 	<parent>
 		<artifactId>esup-blank</artifactId>
 		<groupId>org.esupportail</groupId>
-		<version>0.2.6-SNAPSHOT</version>
+		<version>0.2.9-SNAPSHOT</version>
 	</parent>
 	<groupId>org.esupportail</groupId>
 	<artifactId>esup-blank-web-vaadin-touch</artifactId>
-	<version>0.2.6-SNAPSHOT</version>
 	<name>esup-blank-web-vaadin-touch</name>
 	<description>A simple web vaadin touch application</description>
 
@@ -182,7 +181,7 @@
 		<dependency>
 			<groupId>org.esupportail</groupId>
 			<artifactId>esup-blank-domain-services</artifactId>
-			<version>0.2.6-SNAPSHOT</version>
+			<version>0.2.9-SNAPSHOT</version>
 			<type>jar</type>
 			<scope>compile</scope>
 		</dependency>
