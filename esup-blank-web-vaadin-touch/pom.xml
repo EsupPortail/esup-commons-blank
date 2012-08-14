@@ -3,10 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<artifactId>esup-blank</artifactId>
-		<groupId>org.esupportail</groupId>
+		<groupId>org.esupportail.blank</groupId>
 		<version>0.2.9-SNAPSHOT</version>
 	</parent>
-	<groupId>org.esupportail</groupId>
 	<artifactId>esup-blank-web-vaadin-touch</artifactId>
 	<name>esup-blank-web-vaadin-touch</name>
 	<description>A simple web vaadin touch application</description>
@@ -179,9 +178,9 @@
 		</dependency>		
 		<!-- Esup-Commons v2 -->
 		<dependency>
-			<groupId>org.esupportail</groupId>
+			<groupId>org.esupportail.blank</groupId>
 			<artifactId>esup-blank-domain-services</artifactId>
-			<version>0.2.9-SNAPSHOT</version>
+			<version>${project.version}</version>
 			<type>jar</type>
 			<scope>compile</scope>
 		</dependency>
