@@ -20,10 +20,10 @@
 	
 	<bean id="app_context" class="org.esupportail.commons.context.ApplicationContextHolder"/>
 	
-	<import resource="classpath*:META-INF/esup-blanck-domain-services-init.xml" />	
-	<import resource="classpath*:META-INF/esup-blanck-domain-services-domain.xml" />
-	<import resource="classpath*:META-INF/esup-blanck-domain-services-abstractBeans.xml" />
-	<import resource="classpath*:META-INF/esup-blanck-domain-services-application.xml" />
-	<import resource="classpath*:META-INF/esup-blanck-domain-services-i18n.xml" />
-	<import resource="classpath*:META-INF/esup-blanck-dao-dao.xml" />
+	<import resource="classpath*:META-INF/esup-blank-domain-services-init.xml" />	
+	<import resource="classpath*:META-INF/esup-blank-domain-services-domain.xml" />
+	<import resource="classpath*:META-INF/esup-blank-domain-services-abstractBeans.xml" />
+	<import resource="classpath*:META-INF/esup-blank-domain-services-application.xml" />
+	<import resource="classpath*:META-INF/esup-blank-domain-services-i18n.xml" />
+	<import resource="classpath*:META-INF/esup-blank-dao-dao.xml" />
 </beans>
