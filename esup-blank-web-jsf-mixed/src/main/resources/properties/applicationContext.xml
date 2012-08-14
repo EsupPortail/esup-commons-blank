@@ -16,11 +16,10 @@
 
 	<import resource="classpath*:META-INF/esup-blank-domain-services-auth.xml" />
 	<import resource="classpath*:META-INF/esup-blank-domain-services-domain.xml" />
-
+	<import resource="classpath*:META-INF/esup-blank-domain-services-abstractBeans.xml" />
+	<import resource="classpath*:META-INF/esup-blank-domain-services-application.xml" />
+	<import resource="classpath*:META-INF/esup-blank-domain-services-i18n.xml" />
 	<import resource="exceptionHandling/exceptionHandling.xml" />
-	<import resource="i18n/i18n.xml" />
-	<import resource="misc/abstractBeans.xml" />
-	<import resource="misc/application.xml" />
 	<import resource="misc/agentUtil.xml" />
 	<import resource="smtp/smtp.xml" />
 	<import resource="tags/tags.xml" />
