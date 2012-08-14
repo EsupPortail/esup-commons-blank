@@ -1,1 +1,6 @@
-/.project
+*~
+target/
+.settings/
+.classpath
+.project
+/esup-blank-web-jsf-mixed/esup-blank.log
