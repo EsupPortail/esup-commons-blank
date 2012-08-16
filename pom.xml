@@ -6,9 +6,8 @@
     <packaging>pom</packaging>
     <description>An Blank Application to start your project</description>
     <scm>
-        <connection>scm:svn:https://subversion.cru.fr/esup-commons/trunk/esup-blank/</connection>
-        <developerConnection>scm:svn:https://subversion.cru.fr/esup-commons/trunk/esup-blank/</developerConnection>
-        <url>https://sourcesup.cru.fr/scm/?group_id=244</url>
+        <connection>scm:git:ssh://git@github.com/EsupPortail/esup-commons-blank</connection>
+        <url>https://github.com/EsupPortail/esup-commons-blank</url>
     </scm>
     <repositories>
         <repository>
@@ -62,8 +61,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.2.1</version>
                 <configuration>
-                    <tagBase>https://subversion.cru.fr/esup-commons/tags</tagBase>
-                    <tagNameFormat>V2-@{project.version}/@{project.artifactId}</tagNameFormat>
+                    <tagNameFormat>V2-@{project.version}</tagNameFormat>
                    <goals />
                 </configuration>
             </plugin>
@@ -82,8 +80,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.3.2</version>
                 <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
+                    <source>1.5</source>
+                    <target>1.5</target>
                 </configuration>
             </plugin>
             <plugin>
