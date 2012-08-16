@@ -62,7 +62,7 @@
                 <version>2.2.1</version>
                 <configuration>
                     <tagNameFormat>V2-@{project.version}</tagNameFormat>
-                   <goals />
+					<goals>clean</goals> <!-- We don't want to deploy blank but just archetype from blank -->
                 </configuration>
             </plugin>
             <plugin>
@@ -82,7 +82,6 @@
                 <configuration>
                     <source>1.5</source>
                     <target>1.5</target>
-                    	<goals>clean</goals> <!-- We don't want to deploy blank but just archetype from blank -->
                 </configuration>
             </plugin>
             <plugin>
