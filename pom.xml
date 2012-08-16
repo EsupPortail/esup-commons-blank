@@ -82,6 +82,7 @@
                 <configuration>
                     <source>1.5</source>
                     <target>1.5</target>
+                    	<goals>clean</goals> <!-- We don't want to deploy blank but just archetype from blank -->
                 </configuration>
             </plugin>
             <plugin>
