@@ -26,11 +26,13 @@ public class Launcher {
 	 * Print the syntax and exit.
 	 */
 	private static void syntax() {
+		String className = Launcher.class.getSimpleName();
 		System.out.print(
-				"syntax: " + Launcher.class.getSimpleName() + " <options>\n" +
+				"syntax: " +  className + " <options>\n" +
 				"where option can be:\n" +
 				"- init-db\n" +
-				"- upgrade-db\n");
+				"- upgrade-db\n" +
+				"Note: With autoexec jar generated with esup-commons " + className + " is not needed so use: java -jar <jarname> <options>\n");
 	}
 
 	/**
@@ -76,16 +78,18 @@ public class Launcher {
 	 * Upgrade the database
 	 */
 	private static void upgradeDb() {
-		VersionningService versionningService = getVersionningService();
-		versionningService.upgradeDatabase();
+		LOG.error("method upgradeDb() is commented util versionningService is undefined");
+//		VersionningService versionningService = getVersionningService();
+//		versionningService.upgradeDatabase();
 	}
 
 	/**
 	 * Initialize the database 
 	 */
 	private static void initDb() {
-		VersionningService versionningService = getVersionningService();
-		versionningService.initDatabase();
+		LOG.error("method initDb() is commented util versionningService is undefined");
+//		VersionningService versionningService = getVersionningService();
+//		versionningService.initDatabase();
 	}
 
 	/**
