@@ -3,7 +3,7 @@
     <parent>
         <artifactId>esup-blank</artifactId>
         <groupId>org.esupportail.blank</groupId>
-        <version>0.3.2</version>
+        <version>0.3.3-SNAPSHOT</version>
     </parent>
     <artifactId>esup-blank-web-jsf-mixed</artifactId>
     <packaging>war</packaging>

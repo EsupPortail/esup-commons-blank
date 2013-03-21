@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.esupportail.blank</groupId>
     <artifactId>esup-blank</artifactId>
-    <version>0.3.2</version>
+    <version>0.3.3-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>An Blank Application to start your project</description>
     <scm>
