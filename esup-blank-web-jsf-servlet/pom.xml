@@ -5,7 +5,6 @@
         <groupId>org.esupportail.blank</groupId>
         <version>0.3.1-SNAPSHOT</version>
     </parent>
-    <groupId>org.esupportail.blank</groupId>
     <artifactId>esup-blank-web-jsf-servlet</artifactId>
     <packaging>war</packaging>
     <description>couche d'acces aux donnees</description>

@@ -5,7 +5,6 @@
         <groupId>org.esupportail.blank</groupId>
         <version>0.3.1-SNAPSHOT</version>
     </parent>
-    <groupId>org.esupportail.blank</groupId>
     <artifactId>esup-blank-web-jsf-mixed</artifactId>
     <packaging>war</packaging>
     <build>

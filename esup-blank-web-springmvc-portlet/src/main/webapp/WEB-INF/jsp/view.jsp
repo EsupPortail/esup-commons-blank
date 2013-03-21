@@ -4,7 +4,7 @@
 
 <div class="portlet-title">
   <h2>
-    ${userFromEC2.id} !
+    ${userFromEC2.login} !
   </h2>
 </div>
 
