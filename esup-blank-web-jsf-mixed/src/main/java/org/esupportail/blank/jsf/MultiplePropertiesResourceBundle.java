@@ -183,6 +183,7 @@ public class MultiplePropertiesResourceBundle extends ResourceBundle {
 						addMatchingNameOnce("", baseName, bundleNames,
 								baseFileName, name);
 					}
+					jar.close();
 				} else {
 					File dir = new File(jarUrl.getFile());
 					dir = dir.getParentFile();
