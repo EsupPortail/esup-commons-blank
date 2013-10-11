@@ -12,6 +12,17 @@
     	Note: EhCache is disabled by default in hibernate.cfg.xml.
     -->
 
+    <defaultCache
+            maxElementsInMemory="10000"
+            eternal="false"
+            timeToIdleSeconds="120"
+            timeToLiveSeconds="120"
+            overflowToDisk="true"
+            diskPersistent="false"
+            diskExpiryThreadIntervalSeconds="120"
+            memoryStoreEvictionPolicy="LRU"
+            />
+
     <cache 
     	name="org.esupportail.example.domain.beans.User"
     	maxElementsInMemory="1000" 
@@ -48,14 +59,4 @@
     	overflowToDisk="true" 
     	/>
 
-    <defaultCache
-            maxElementsInMemory="10000"
-            eternal="false"
-            timeToIdleSeconds="120"
-            timeToLiveSeconds="120"
-            overflowToDisk="true"
-            diskPersistent="false"
-            diskExpiryThreadIntervalSeconds="120"
-            memoryStoreEvictionPolicy="LRU"
-            />
 </ehcache>
