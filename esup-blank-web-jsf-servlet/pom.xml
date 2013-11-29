@@ -7,7 +7,7 @@
     </parent>
     <artifactId>esup-blank-web-jsf-servlet</artifactId>
     <packaging>war</packaging>
-    <description>couche d'acces aux donnees</description>
+    <description>couche presentation</description>
     <repositories>
         <repository>
             <id>prime-repo</id>
