@@ -30,4 +30,5 @@
 	<import resource="tags/tags.xml" />
 	<import resource="web/controllers.xml" />
 	<import resource="web/converters.xml" />
+	<import resource="web/beans.xml"/>
 </beans>
