@@ -24,6 +24,7 @@
 	<import resource="classpath*:META-INF/esup-blank-domain-services-abstractBeans.xml" />
 	<import resource="classpath*:META-INF/esup-blank-domain-services-application.xml" />
 	<import resource="classpath*:META-INF/esup-blank-domain-services-i18n.xml" />
+	<import resource="classpath*:META-INF/esup-blank-domain-services-init.xml" />
 	<import resource="exceptionHandling/exceptionHandling.xml" />
 	<import resource="cache/cache.xml"/>
 	<import resource="smtp/smtp.xml" />
