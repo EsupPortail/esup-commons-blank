@@ -59,6 +59,7 @@
 	    		The base URL where the latest version number should be found.
 	    	</description>
     	</property>
+    	<property name="quickStart" value="false"/>
     </bean>
 
 </beans>
