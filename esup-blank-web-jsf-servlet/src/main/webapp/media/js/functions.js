@@ -4,7 +4,7 @@ var debug = false;
 * Simule a click for a link.
 */
 function simulateLinkClick(linkId) {
-	var fireOnThis = document.getElementById(linkId)
+    var fireOnThis = document.getElementById(linkId);
     if (fireOnThis == null) {
       if (debug) alert("element [" + linkId + "] not found");
       return;
