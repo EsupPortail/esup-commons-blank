@@ -16,9 +16,12 @@ import org.esupportail.commons.web.controllers.Resettable;
 
 /**
  * An abstract class inherited by all the beans for them to get:
- * - the domain service (domainService).
- * - the application service (applicationService).
- * - the i18n service (i18nService).
+ * 
+ * <ul>
+ * <li>the domain service (domainService).</li>
+ * <li>the application service (applicationService).</li>
+ * <li>the i18n service (i18nService).</li>
+ * </ul>
  */
 public abstract class AbstractDomainAwareBean extends AbstractJsfMessagesAwareBean implements Resettable {
 
