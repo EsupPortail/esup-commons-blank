@@ -9,10 +9,13 @@ import org.esupportail.commons.utils.Assert;
 
 /**
  * An abstract class inherited by all the beans for them to get:
- * - the context of the application (sessionController).
- * - the domain service (domainService).
- * - the application service (applicationService).
- * - the i18n service (i18nService).
+ * 
+ * <ul>
+ * <li>the context of the application (sessionController).</li>
+ * <li>the domain service (domainService).</li>
+ * <li>the application service (applicationService).</li>
+ * <li>the i18n service (i18nService).</li>
+ * </ul>
  */
 public abstract class AbstractContextAwareController extends AbstractDomainAwareBean {
 
